@@ -1,0 +1,78 @@
+#achievements{
+    margin-left: 10rem;
+    text-align: left;
+    
+    margin-top: 10rem;
+}
+.contactPageTitle{
+    color: yellow;
+   font-weight: 1000;
+   font-size: larger;
+   width: 200px;
+}
+
+#contact{
+    margin-top: 5rem;
+    text-align: center;
+}
+#contact>h1{
+    color: yellow;
+}
+
+.conatactDesc{
+    padding: 1rem;
+    font-size: medium;
+
+}
+
+.links{
+
+    background-size: cover;
+}
+.link{
+    background: white;
+    height: 3rem;
+    margin-top: 2rem;
+    border:solid;
+    border-radius: 2rem;
+    margin-left:1.5rem;
+
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 120rem;
+}
+.name,.email,.msg{
+    align-items: center;
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+
+}
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+
+    padding: 0.75rem 3.5rem;
+
+}
