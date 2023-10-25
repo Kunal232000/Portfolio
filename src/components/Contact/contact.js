@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef } from 'react';
 import './contact.css'
 import Linkedin from '../../Assets/linkedin.png';
 import Git from '../../Assets/git.png';
@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zygsm9k', 'template_eu7uyjo', form.current, 'diK_IGGkwNVMtWrAkJaEY')
+    emailjs.sendForm('service_zygsm9k', 'template_eu7uyjo', form.current, 'SWN7PfWgGn2rwt6x2')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
@@ -40,10 +40,11 @@ const Contact = () => {
            <h1 className='contactTitle'>CONTACT ME</h1>
            <span className='contactDesc'>Please Fill The Form Below To Contact Me</span>
         <form className='contactForm' ref={form} onSubmit={sendEmail}> 
-        <input type='text' className='name' placeholder='Your Name' name='your_name'></input>
+        <input type='text' className='name' placeholder='Your Name' name='from_name'></input>
         <input type='email' className='email' placeholder='Your Email' name='your_email'></input>
         <textarea name="message" className='msg' rows="5" placeholder='Your Message' ></textarea>
-        <button className='submitBtn' type='submit' value='Submit'>Submit</button>
+        <input type='submit' className='submitBtn' value='Send'></input>
+       
         </form>
 <div className='links'>
 
